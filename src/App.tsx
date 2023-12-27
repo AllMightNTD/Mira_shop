@@ -8,9 +8,7 @@ import { Login } from './screens/Auth/Login';
 function App() {
     return (
         <ThemeProvider theme={defaultTheme}>
-            <QueryClientProvider
-                client={queryClient}
-            >
+            <QueryClientProvider client={queryClient}>
                 <ToastContainer />
                 <Login />
             </QueryClientProvider>

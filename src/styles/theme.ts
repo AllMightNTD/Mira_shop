@@ -1,5 +1,5 @@
 import { createTheme } from '@mui/material'
-import { blue, grey, primaryColor, PrimaryColors, secondaryColor } from './color'
+import { blue, grey } from './color'
 
 declare module '@mui/material/Button' {
     interface ButtonPropsVariantOverrides {
@@ -10,15 +10,15 @@ const defaultTheme = createTheme(
     {
         palette: {
             primary: {
-                main: PrimaryColors[600],
+                main: blue[600],
                 light: blue[300]
             },
             background: {
                 default: '#FAFAFA'
             },
             secondary: {
-                main: primaryColor,
-                light: secondaryColor
+                main: blue[600],
+                light: blue[300]
             },
             grey: {
                 900: grey[900],

@@ -43,7 +43,7 @@ const InputCommon = <T extends FieldValues>({
         <FormControl sx={{ width: '100%' }}>
             <Typography
                 sx={{
-                    color: error ? '#d32f2f' : 'initial', // Chỉ định màu sắc tùy thuộc vào trạng thái của error
+                    color: error ? '#d32f2f' : 'initial',
                 }}
             >
                 {required ? (

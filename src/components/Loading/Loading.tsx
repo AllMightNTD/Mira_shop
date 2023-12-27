@@ -1,7 +1,8 @@
-import React from "react";
+import { CircularProgress } from '@mui/material';
+import React from 'react';
 
 const Loading: React.FC = () => {
-  return <div>Loading</div>;
+    return <CircularProgress />;
 };
 
 export { Loading };
